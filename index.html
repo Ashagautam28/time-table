@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Time Table</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fb;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        table {
+            margin: auto;
+            border-collapse: collapse;
+            width: 80%;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        td:hover {
+            background-color: #d1ecf1;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>My Weekly Time Table</h1>
+
+    <table>
+        <tr>
+            <th>Day</th>
+            <th>9 - 10 AM</th>
+            <th>10 - 11 AM</th>
+            <th>11 - 12 PM</th>
+            <th>12 - 1 PM</th>
+            <th>2 - 3 PM</th>
+        </tr>
+
+        <tr>
+            <td>Monday</td>
+            <td>Math</td>
+            <td>Physics</td>
+            <td>English</td>
+            <td rowspan="5">Lunch</td>
+            <td>Programming</td>
+        </tr>
+
+        <tr>
+            <td>Tuesday</td>
+            <td>Chemistry</td>
+            <td>Math</td>
+            <td>Physics</td>
+            <td>Lab</td>
+        </tr>
+
+        <tr>
+            <td>Wednesday</td>
+            <td>English</td>
+            <td>Programming</td>
+            <td>Math</td>
+            <td>Sports</td>
+        </tr>
+
+        <tr>
+            <td>Thursday</td>
+            <td>Physics</td>
+            <td>Chemistry</td>
+            <td>English</td>
+            <td>Library</td>
+        </tr>
+
+        <tr>
+            <td>Friday</td>
+            <td>Math</td>
+            <td>Physics</td>
+            <td>Programming</td>
+            <td>Project</td>
+        </tr>
+    </table>
+
+</body>
+</html>
